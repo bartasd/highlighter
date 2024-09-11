@@ -21,7 +21,7 @@ function highlight(code) {
       result += span(temp);
     }
   }
-  return result;
+  return result ? result : code;
 }
 
 const text = document.getElementById("text");
