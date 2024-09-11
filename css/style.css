@@ -1,0 +1,31 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#input {
+  width: 60%;
+  height: 40%;
+}
+
+#text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  width: 70%;
+  text-align: center;
+  color: white;
+}
